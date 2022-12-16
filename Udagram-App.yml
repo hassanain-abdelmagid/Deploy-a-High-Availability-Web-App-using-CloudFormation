@@ -338,7 +338,6 @@ Resources:
                     aws s3 cp s3://my-987070081262-bucket/UdagramApp.zip .
                     unzip -o UdagramApp.zip
             ImageId: ami-0e8ad072b97e68af9
-            KeyName: hah
             IamInstanceProfile: !Ref ProfileWithRolesForOurApp
             SecurityGroups:
             -   Ref: WebServerSecGroup
